@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Bogus" Version="33.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DBHelper.LingToDb\DdHelper.LingToDb.csproj" />
+    <ProjectReference Include="..\DBHelpers.DomainModel\DdHelpers.DomainModels.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\dbHelper.ClassGenerator\DbHelper.ClassGenerator.csproj" />
+    <ProjectReference Include="..\DBHelper.LingToDb\DdHelper.LingToDb.csproj" />
+    <ProjectReference Include="..\DBHelpers.DomainModel\DdHelpers.DomainModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="linq2db" Version="3.2.3" />
+  </ItemGroup>
+
+</Project>
